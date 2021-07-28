@@ -9,5 +9,5 @@ String.prototype.splice = function(idx, rem, str) {
     return this.slice(0, idx) + str + this.slice(idx + Math.abs(rem));
 };
 
-var email = "samvdst".splice(3,0,'@').splice(6,0,'.')
+const email = "samvdst".splice(3,0,'@').splice(6,0,'.')
 ```
